@@ -1,0 +1,426 @@
+@prefix : <http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#> .
+
+<http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2> rdf:type owl:Ontology ;
+                                                                         rdfs:comment "Ontoligía series television \"One Piece\""@es ;
+                                                                         rdfs:isDefinedBy "Alex Miranda González"@es .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://www.w3.org/2000/01/rdf-schema#sameAs
+rdfs:sameAs rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasDevilFruitPowers
+:hasDevilFruitPowers rdf:type owl:ObjectProperty ,
+                              owl:AsymmetricProperty ;
+                     rdfs:domain :Character ;
+                     rdfs:range :DevilFruit ;
+                     rdfs:comment "Defines if someone has Devil Fruit powers."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasParty
+:hasParty rdf:type owl:ObjectProperty ;
+          rdfs:domain :Character ;
+          rdfs:range :Party ;
+          rdfs:comment "Defines in which side a character is on." .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasShip
+:hasShip rdf:type owl:ObjectProperty ;
+         rdfs:domain :Crew ;
+         rdfs:range :Ship ;
+         rdfs:comment "Defines whether a crew has a ship." .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#isMemberOf
+:isMemberOf rdf:type owl:ObjectProperty ;
+            rdfs:domain :Character ;
+            rdfs:range :Organization ;
+            rdfs:comment "Defines the crew of a character." .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#isWanted
+:isWanted rdf:type owl:ObjectProperty ;
+          rdfs:domain :Character ;
+          rdfs:range :Wanted ;
+          rdfs:comment "Defines the risk level of a character." .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasAge
+:hasAge rdf:type owl:DatatypeProperty ;
+        rdfs:domain :Character ;
+        rdfs:range xsd:integer ;
+        rdfs:comment "Age of someone."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasBounty
+:hasBounty rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Character ;
+           rdfs:range xsd:long ;
+           rdfs:comment "Defines the bounty that a character has." .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasName
+:hasName rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Character ,
+                     :DevilFruit ,
+                     :Organization ,
+                     :Ship ;
+         rdfs:range xsd:string ;
+         rdfs:comment "Name of something or someone."@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Alliance
+:Alliance rdf:type owl:Class ;
+          rdfs:subClassOf :Organization ;
+          rdfs:comment "Describes an Alliance."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Animal
+:Animal rdf:type owl:Class ;
+        rdfs:subClassOf :Character ;
+        rdfs:comment "Character that is an Animal."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character
+:Character rdf:type owl:Class ;
+           rdfs:comment "Character appearing in One Piece."@en ;
+           rdfs:sameAs "https://dbpedia.org/ontology/FictionalCharacter"@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Crew
+:Crew rdf:type owl:Class ;
+      rdfs:subClassOf :Organization ;
+      rdfs:comment "Defines a Crew."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Cyborg
+:Cyborg rdf:type owl:Class ;
+        rdfs:subClassOf :Hybrid ;
+        rdfs:comment "Character that is half human, half robot."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#DevilFruit
+:DevilFruit rdf:type owl:Class ;
+            rdfs:comment "Defines the properties given by a Devil Fruit."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Fishmen
+:Fishmen rdf:type owl:Class ;
+         rdfs:subClassOf :Character ;
+         rdfs:comment "Character that belongs to the fish-men race."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Giant
+:Giant rdf:type owl:Class ;
+       rdfs:subClassOf :Character ;
+       rdfs:comment "Character that belongs to the giant race."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Government
+:Government rdf:type owl:Class ;
+            rdfs:subClassOf :Party ;
+            rdfs:comment "World Government." .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#High_risk
+:High_risk rdf:type owl:Class ;
+           rdfs:subClassOf :Wanted ;
+           rdfs:comment "Considered High risk." .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Human
+:Human rdf:type owl:Class ;
+       rdfs:subClassOf :Character ;
+       rdfs:comment "Character that belongs to human race."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Hybrid
+:Hybrid rdf:type owl:Class ;
+        rdfs:subClassOf :Character ;
+        rdfs:comment "Undefined type of character, combines one or more races."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Logia
+:Logia rdf:type owl:Class ;
+       rdfs:subClassOf :DevilFruit ;
+       rdfs:comment "Logia Devil Fruit."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Low_Risk
+:Low_Risk rdf:type owl:Class ;
+          rdfs:subClassOf :Wanted ;
+          rdfs:comment "Considered low risk." .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Medium_Risk
+:Medium_Risk rdf:type owl:Class ;
+             rdfs:subClassOf :Wanted ;
+             rdfs:comment "Considered Medium risk" .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Mythical
+:Mythical rdf:type owl:Class ;
+          rdfs:subClassOf :Zoan .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Organization
+:Organization rdf:type owl:Class ;
+              rdfs:comment "Defines a organization."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Paramecia
+:Paramecia rdf:type owl:Class ;
+           rdfs:subClassOf :DevilFruit ;
+           rdfs:comment "Paramecia Devil Fruit."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Party
+:Party rdf:type owl:Class ;
+       rdfs:comment "Defines the principal parties in the wold of One Piece." .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Pirates
+:Pirates rdf:type owl:Class ;
+         rdfs:subClassOf :Party .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Revolutionaries
+:Revolutionaries rdf:type owl:Class ;
+                 rdfs:subClassOf :Party ;
+                 rdfs:comment "Revolutionaries." .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Ship
+:Ship rdf:type owl:Class ;
+      rdfs:comment "Defines the properties of a ship."@en ;
+      rdfs:sameAs "https://dbpedia.org/ontology/Ship"@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Wanted
+:Wanted rdf:type owl:Class ;
+        rdfs:comment "Determines the level of risk that someone has." .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Zoan
+:Zoan rdf:type owl:Class ;
+      rdfs:subClassOf :DevilFruit ;
+      rdfs:comment "Zoan Devil Fruit."@en .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Zombie
+:Zombie rdf:type owl:Class ;
+        rdfs:subClassOf :Hybrid ;
+        rdfs:comment "Character that has revived."@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#GumGum_Fruit
+:GumGum_Fruit rdf:type owl:NamedIndividual ,
+                       :Paramecia ;
+              :hasName "Gum-Gum Fruit" ;
+              rdfs:comment "Gum-Gum devil fruit." .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Luffy
+:Luffy rdf:type owl:NamedIndividual ,
+                :Human ;
+       :hasDevilFruitPowers :GumGum_Fruit ;
+       :hasParty :Pirates ;
+       :isMemberOf :Strawhat_Pirates ;
+       :isWanted :LuffyWantedPoster ;
+       :hasAge 19 ;
+       :hasBounty 1500000000 ;
+       :hasName "Monkey D. Luffy" ;
+       rdfs:comment "Character describing Luffy." .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#LuffyWantedPoster
+:LuffyWantedPoster rdf:type owl:NamedIndividual ,
+                            :High_risk .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Pirates
+:Pirates rdf:type owl:NamedIndividual ,
+                  :Pirates .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Strawhat_Pirates
+:Strawhat_Pirates rdf:type owl:NamedIndividual ,
+                           :Crew ;
+                  :hasShip :Thousand_Sunny ;
+                  :hasName "Strawhat Pirates" ;
+                  rdfs:comment "Strawhat Pirates Crew," .
+
+
+###  http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Thousand_Sunny
+:Thousand_Sunny rdf:type owl:NamedIndividual ,
+                         :Ship ;
+                :hasName "Thousand Sunny" ;
+                rdfs:comment "Thousand Sunny Ship." .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:Pirates rdfs:comment "Pirates." .
+
+
+#################################################################
+#    Rules
+#################################################################
+
+<urn:swrl:var#c> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#crew> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#b> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#p> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#d> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+<urn:swrl:var#risk> rdf:type <http://www.w3.org/2003/11/swrl#Variable> .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Character ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> :Crew ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#crew>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasBounty ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#b>
+                                                                           ] ;
+                                                                 rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                            rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#propertyPredicate> :isMemberOf ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                                                        <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#crew>
+                                                                                      ] ;
+                                                                            rdf:rest rdf:nil
+                                                                          ]
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Pirates ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#p>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasParty ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#p>
+                                                                ] ;
+                                                      rdf:rest rdf:nil
+                                                    ]
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Character ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#classPredicate> :Zoan ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#d>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasDevilFruitPowers ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                                             <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#d>
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Animal ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest rdf:nil
+                                         ]
+ ] .
+
+[ rdf:type <http://www.w3.org/2003/11/swrl#Imp> ;
+   <http://www.w3.org/2003/11/swrl#body> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :Character ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :hasBounty ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#b>
+                                                                ] ;
+                                                      rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                                 rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#BuiltinAtom> ;
+                                                                             <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> ;
+                                                                             <http://www.w3.org/2003/11/swrl#arguments> [ rdf:type rdf:List ;
+                                                                                                                          rdf:first <urn:swrl:var#b> ;
+                                                                                                                          rdf:rest [ rdf:type rdf:List ;
+                                                                                                                                     rdf:first 10000000 ;
+                                                                                                                                     rdf:rest rdf:nil
+                                                                                                                                   ]
+                                                                                                                        ]
+                                                                           ] ;
+                                                                 rdf:rest rdf:nil
+                                                               ]
+                                                    ]
+                                         ] ;
+   <http://www.w3.org/2003/11/swrl#head> [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                           rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#ClassAtom> ;
+                                                       <http://www.w3.org/2003/11/swrl#classPredicate> :High_risk ;
+                                                       <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#risk>
+                                                     ] ;
+                                           rdf:rest [ rdf:type <http://www.w3.org/2003/11/swrl#AtomList> ;
+                                                      rdf:first [ rdf:type <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> ;
+                                                                  <http://www.w3.org/2003/11/swrl#propertyPredicate> :isWanted ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument1> <urn:swrl:var#c> ;
+                                                                  <http://www.w3.org/2003/11/swrl#argument2> <urn:swrl:var#risk>
+                                                                ] ;
+                                                      rdf:rest rdf:nil
+                                                    ]
+                                         ]
+ ] .
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

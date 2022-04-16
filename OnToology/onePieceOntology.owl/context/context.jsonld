@@ -1,0 +1,120 @@
+{
+  "@context" : {
+    "Giant" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Giant"
+    },
+    "Revolutionaries" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Revolutionaries"
+    },
+    "hasBounty" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasBounty",
+      "@type" : "http://www.w3.org/2001/XMLSchema#long"
+    },
+    "Zombie" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Zombie"
+    },
+    "Organization" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Organization"
+    },
+    "Hybrid" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Hybrid"
+    },
+    "hasName" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "hasShip" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasShip",
+      "@type" : "@id"
+    },
+    "DevilFruit" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#DevilFruit"
+    },
+    "Mythical" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Mythical"
+    },
+    "Cyborg" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Cyborg"
+    },
+    "Paramecia" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Paramecia"
+    },
+    "Wanted" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Wanted"
+    },
+    "Human" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Human"
+    },
+    "Character" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+    },
+    "Animal" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Animal"
+    },
+    "Ship" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Ship"
+    },
+    "isMemberOf" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#isMemberOf",
+      "@type" : "@id"
+    },
+    "Pirates" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Pirates"
+    },
+    "Government" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Government"
+    },
+    "Zoan" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Zoan"
+    },
+    "isWanted" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#isWanted",
+      "@type" : "@id"
+    },
+    "hasAge" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasAge",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Medium_Risk" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Medium_Risk"
+    },
+    "Crew" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Crew"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "Logia" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Logia"
+    },
+    "High_risk" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#High_risk"
+    },
+    "hasDevilFruitPowers" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasDevilFruitPowers",
+      "@type" : "@id"
+    },
+    "Alliance" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Alliance"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "Party" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Party"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Low_Risk" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Low_Risk"
+    },
+    "Fishmen" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Fishmen"
+    },
+    "hasParty" : {
+      "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasParty",
+      "@type" : "@id"
+    }
+  }
+}
