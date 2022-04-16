@@ -1,0 +1,664 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid9"
+    }, {
+      "@id" : "_:genid7"
+    }, {
+      "@id" : "_:genid5"
+    }, {
+      "@id" : "_:genid3"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid13"
+    }, {
+      "@id" : "_:genid11"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasParty"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#p"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Pirates"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid20"
+    }, {
+      "@id" : "_:genid18"
+    }, {
+      "@id" : "_:genid16"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid22"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasDevilFruitPowers"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#d"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Zoan"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Animal"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid31"
+    }, {
+      "@id" : "_:genid29"
+    }, {
+      "@id" : "_:genid25"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid35"
+    }, {
+      "@id" : "_:genid33"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#b"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "10000000"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#b"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasBounty"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#crew"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#isMemberOf"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#risk"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#isWanted"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#risk"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#High_risk"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#b"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasBounty"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#crew"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Crew"
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#c"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Ontoligía series television \"One Piece\""
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "es",
+    "@value" : "Alex Miranda González"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Alliance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Describes an Alliance."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Organization"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Animal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Character that is an Animal."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Character appearing in One Piece."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "https://dbpedia.org/ontology/FictionalCharacter"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Crew",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Defines a Crew."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Organization"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Cyborg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Character that is half human, half robot."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Hybrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#DevilFruit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Defines the properties given by a Devil Fruit."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Fishmen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Character that belongs to the fish-men race."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Giant",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Character that belongs to the giant race."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Government",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "World Government."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Party"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#GumGum_Fruit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasName" : [ {
+    "@value" : "Gum-Gum Fruit"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Paramecia"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Gum-Gum devil fruit."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#High_risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Considered High risk."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Wanted"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Human",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Character that belongs to human race."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Hybrid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Undefined type of character, combines one or more races."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Logia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Logia Devil Fruit."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#DevilFruit"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Low_Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Considered low risk."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Wanted"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Luffy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasAge" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "19"
+  } ],
+  "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasBounty" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1500000000"
+  } ],
+  "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasDevilFruitPowers" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#GumGum_Fruit"
+  } ],
+  "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasName" : [ {
+    "@value" : "Monkey D. Luffy"
+  } ],
+  "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasParty" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Pirates"
+  } ],
+  "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#isMemberOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Strawhat_Pirates"
+  } ],
+  "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#isWanted" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#LuffyWantedPoster"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Human"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Character describing Luffy."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#LuffyWantedPoster",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#High_risk"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Medium_Risk",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Considered Medium risk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Wanted"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Mythical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Zoan"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Defines a organization."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Paramecia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Paramecia Devil Fruit."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#DevilFruit"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Party",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines the principal parties in the wold of One Piece."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Pirates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Pirates"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Pirates."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Party"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Revolutionaries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Revolutionaries."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Party"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Ship",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Defines the properties of a ship."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "https://dbpedia.org/ontology/Ship"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Strawhat_Pirates",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasName" : [ {
+    "@value" : "Strawhat Pirates"
+  } ],
+  "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasShip" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Thousand_Sunny"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Crew"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Strawhat Pirates Crew,"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Thousand_Sunny",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasName" : [ {
+    "@value" : "Thousand Sunny"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Ship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Thousand Sunny Ship."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Wanted",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Determines the level of risk that someone has."
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Zoan",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Zoan Devil Fruit."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#DevilFruit"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Zombie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Character that has revived."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Hybrid"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasAge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Age of someone."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasBounty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines the bounty that a character has."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#long"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasDevilFruitPowers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#AsymmetricProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Defines if someone has Devil Fruit powers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#DevilFruit"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Name of something or someone."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  }, {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#DevilFruit"
+  }, {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Organization"
+  }, {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Ship"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasParty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines in which side a character is on."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Party"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#hasShip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines whether a crew has a ship."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Crew"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Ship"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#isMemberOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines the crew of a character."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Organization"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#isWanted",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Defines the risk level of a character."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/alex/ontologies/2022/3/untitled-ontology-2#Wanted"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "urn:swrl:var#b",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#c",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#crew",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#d",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#p",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#risk",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]
